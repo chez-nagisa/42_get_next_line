@@ -3,12 +3,12 @@
 The goal is to implement a function that returns the next line from a given file descriptor each time it is called.  
 This requires careful memory handling, persistent state management, and edge case handling — all done in C, without using standard high-level functions.
 
-# 🧠 What I Learned
+## 🧠 What I Learned
 - Dynamic memory allocation and buffer management
 - Maintaining state between function calls using static variables
 - Handling edge cases such as newline characters, EOF, and memory leaks
 
-# 🧪 How to Use
+## 🧪 How to Use
 1. Clone this repository
 2. Run make to compile get_next_line.a
 
