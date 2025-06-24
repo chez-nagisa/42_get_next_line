@@ -10,13 +10,13 @@ This requires careful memory handling, persistent state management, and edge cas
 
 ## 🧪 How to Use
 ```bash
-1. Prepare the source files (example)
+# 1. Prepare the source files (example)
 cc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c
 
-2. Create a text file with some content
+# 2. Create a text file with some content
 echo "Hello\nWorld\n42" > test.txt
 
-3. Run the program with the text file as an argument
+# 3. Run the program with the text file as an argument
 ./a.out test.txt
 ```
 
